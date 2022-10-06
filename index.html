@@ -3,11 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Vite App</title>
   </head>
   <body>
+    <header class="primary-header">
+      <div class="container">
+        <hr />
+        <div class="nav-wrapper">
+          <img src="./assets/shared/logo.svg" alt="" class="logo" />
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul role="list" class="nav-list">
+              <div class="nav-num-name">
+                <p>00</p>
+                <li><a href="#home">Home</a></li>
+              </div>
+
+              <div class="nav-num-name">
+                <p>01</p>
+                <li><a href="#">Destination</a></li>
+              </div>
+              <div class="nav-num-name">
+                <p>02</p>
+                <li><a href="#">Crew</a></li>
+              </div>
+              <div class="nav-num-name">
+                <p>03</p>
+                <li><a href="#">Technology</a></li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-main">
+        <div class="left-text">
+          <h2 class="sub-heading">SO, YOU WANT TO TRAVEL TO</h2>
+          <h1 class="heading">SPACE</h1>
+          <p class="desc">
+            Let's face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we'll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <div class="right-button">
+          <button class="explore">EXPLORE</button>
+        </div>
+      </div>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
